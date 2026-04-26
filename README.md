@@ -6,7 +6,7 @@ Users can discover movies, browse shows by city, select seats visually, and comp
 ---
 
 ## 🚀 Live Demo
-[[Add Frontend URL Here]](https://tick-flow-frontend.vercel.app/)
+(https://tick-flow-frontend.vercel.app/)
 
 ## 📸 Preview
 (https://drive.google.com/drive/folders/10Mvjlva21EtCccLX6fuqAS9U4TQx30oi?usp=sharing)
