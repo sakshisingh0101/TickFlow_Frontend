@@ -1,16 +1,62 @@
-# React + Vite
+# TickFlow Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TickFlow is a modern full-stack movie ticket booking platform that allows users to discover movies, browse shows by city, select seats in real time, and complete secure online payments.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- User signup, login, logout
+- JWT-based authentication
+- OTP verification flow
+- Search movies, theatres, and cities
+- Trending movies section
+- Show listings by city/movie
+- Real-time seat selection UI
+- Booking summary dashboard
+- Razorpay payment integration
+- Responsive premium UI
+- Protected routes
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- React Router DOM
+- Redux Toolkit
+- Axios
+- Tailwind CSS
+- Framer Motion
+- Lucide Icons
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+Environment Variables
+
+Create .env file:
+
+VITE_API_URL=http://localhost:3000/api/v1
+VITE_RAZORPAY_KEY=your_key
+Folder Structure
+src/
+ ├── api/
+ ├── components/
+ ├── pages/
+ ├── store/
+ ├── routes/
+ └── utils/
+Main Pages
+Home
+Login / Signup
+Verify OTP
+Search Results
+Seat Booking
+User Dashboard
+Booking History
+Deployment
+
+Recommended: Vercel
+
+Author
+
+Sakshi
